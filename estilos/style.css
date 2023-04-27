@@ -56,18 +56,25 @@ main p{
 section{
     padding: 10vh 0vh 10vh 30px;
     line-height: 2em;
-    
 }
 
 section.normal{
     background-color: white;
-    color: black;
+    color: black;   
+}
+
+section.normal > p{
+    padding-bottom: 2em;
 }
 
 section.imagem{
     background-color: darkgrey;
     color: white;
+    text-shadow: 1px 1px 0px black;
     box-shadow: inset 0px 4px 25px 3px rgba(0, 0, 0, 0.507);
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
@@ -75,19 +82,13 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.493);
 }
 
-section.imagem#joaninha{
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    background-color: black;
+section.imagem#img01{
+    background-position: right center;
     background-image: url(../imagens/background001.jpg);
 }
 
-section.imagem#paginas{
-    background-attachment: fixed;
+section.imagem#img02{
     background-position: center center;
-    background-size: cover;
-    background-color: black;
     background-image: url(../imagens/background002.jpg);
 }
 
